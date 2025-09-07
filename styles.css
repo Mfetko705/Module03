@@ -67,7 +67,7 @@ h2 {
 
 section {
     background-color: rgb(225, 237, 179);
-    border: 2px solid purple(100, 128, 0);
+    border: 5px solid purple(100, 128, 0);
     border-left: 20px solid purple;
     margin-bottom: 20px;
     padding: 5px;
