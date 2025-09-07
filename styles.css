@@ -1,0 +1,97 @@
+header {
+    text-align: center;
+    font-variant: small-caps;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 20px solid blue;
+    padding-right: 10px;
+    margin-right: 30px;
+    /*margin-left: 250px;
+    margin-right: 150px*/
+
+}
+
+h1 {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 400px;
+}
+
+aside {
+    float: right;
+    margin-right: 30px;
+    text-align: right;
+    border-right: 20px solid rgb(120, 115, 115);
+    padding-right: 10px;
+    /*border-right: solid gray;*/
+    
+}
+
+aside::first-line {
+    font-weight: bold;
+}
+
+/*aside::before {
+
+}*/
+
+/*aside::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 100%;
+    background-color: gray;
+    margin-right: 10px
+}*/
+
+h1 {
+    text-align: left;
+    overflow: hidden;
+}
+
+article {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image: url("WidgetCoLogo.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    clear: right;
+
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+section {
+    background-color: rgb(225, 237, 179);
+    border: 2px solid rgb(100, 128, 0);
+    border-left: 20px solid red;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 0%;
+
+
+
+}
+
+footer {
+    text-align: right;
+    color: gray;
+    font-style: italic;
+    border-top: 1px solid gray;
+}
+
+footer a {
+    color: gray;
+}
+/*header, aside {
+    display: inline-block;
+    padding-right: 5px;
+    border-right: 10px solid gray;
+}*/
+
+
+
